@@ -1,0 +1,96 @@
+:root {
+  --primary-color: #d1d9e1;
+  --secondary-color: #424242;
+}
+
+body {
+  background-color: #000;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Red Hat Mono", monospace;
+}
+
+.header {
+  background-color: #212121;
+  background-image: url("seaandsky.jpg");
+  background-position: 20% 70%;
+  background-repeat: no-repeat;
+  padding: 160px 20px;
+  margin-bottom: 40px;
+}
+
+h1,
+h2,
+h3 {
+  display: block;
+  margin: auto;
+  text-align: center;
+  color: var(--primary-color);
+}
+
+h2 {
+  margin-top: 60px;
+}
+
+p {
+  color: var(--primary-color);
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--primary-color);
+}
+
+.contact-link {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.contact-link:hover {
+  background: var(--secondary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.about-me-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+.about-me-link:hover {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.weather-app-link {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.primary-link,
+.secondary-link {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  text-decoration: none;
+  border-radius: 4px;
+  padding: 15px 15px;
+}
+
+.primary-link:hover {
+  background: var(--secondary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.secondary-link:hover {
+  background: var(--secondary-color);
+  border: 1px solid var(--primary-color);
+}
